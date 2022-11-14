@@ -17,6 +17,8 @@ public class CircleFireTrajectory : MonoBehaviour
         direction = cf.direction;
         direction.Normalize();
         Invoke("DestroySelf", 1.5f);
+
+ 
     }
 
     void FixedUpdate()
